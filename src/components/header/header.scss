@@ -49,6 +49,10 @@
 	.highlight { color: $blue-color; }
 
 	@media only screen and (max-width: 990px) {
+		h1 {
+			font-size: 3rem;
+		}
+
 		.desc1 {
 			text-align: center;
 		}
@@ -61,16 +65,16 @@
 		
 		.desc1 {
 			position: relative;
-			left: 6%;
+			left: 5%;
 			padding-right: 0;
 			padding-top: 6rem;
 		}
 	}
 
-	@media only screen and (min-width: 1024px) {
+	@media only screen and (min-width: 1650px) {
 		.desc1 {
 			position: relative;
-			left: 12%;
+			left: 8%;
 		}
 	}
 }

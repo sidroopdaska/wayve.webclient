@@ -77,3 +77,9 @@ a, a:visited {
 	height: 1px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
 }
+
+@media (min-width: 1540px) {
+	.container {
+			max-width: 1540px;
+	}
+}

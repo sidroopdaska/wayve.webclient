@@ -12,7 +12,7 @@ const config = {
     output: {
         path: path.resolve(__dirname, "../dist"),
         filename: "[name].bundle.min.js",
-        publicPath: 'assets/dist/'
+        publicPath: 'assets/wayvedist/'
     },
     resolve: {
         // Specify directories for where to look for modules

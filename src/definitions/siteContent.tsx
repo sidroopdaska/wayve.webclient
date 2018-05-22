@@ -248,13 +248,10 @@ export class SiteContent {
 						I spent the next 6 weeks building my knowledge in Modern C++ (C++11 &amp; C++14) and put this to test by implementing:
 					</p>
 					<ul className='same-as-p'>
-						<li>A <a
+						<li>a <a
 								href='https://github.com/sidroopdaska/PathPlanning'
 								target='_blank'>Path finding algorithm
-							</a>, and,
-						</li>
-						<li>An Extended Kalman Filter that fused together LIDAR &amp; RADAR measurements to track a bicycle's position
-							and velocity relative to the car
+							</a>
 						</li>
 					</ul>
 				</div>,
@@ -279,11 +276,12 @@ export class SiteContent {
 						Excited by the results and the wealth of information made availble, I decided to embark on a journey to try and
 						replicate the performance achieved by him for pixel-wise semantic segmentation.
 
-						Some pre-requisites that I have been involved with over the past few weeks include:
+						Some of the pre-requisites that I have been involved with over the past few weeks include:
 					</p>
 					<ul className='same-as-p'>
-						<li>Fast.ai: Deep Learning Term 1</li>
-						<li>YOLO and <a href='https://github.com/alexgkendall/SegNet-Tutorial' target='_blank'>SegNet</a></li>
+						<li>Semantic Segmentation and experimentation with <a href='https://github.com/alexgkendall/SegNet-Tutorial' target='_blank'>SegNet</a></li>
+						<li>Object Detection and experimentation with YOLO</li>
+						<li>Deep Learning Term 1: Fast.ai</li>
 					</ul>
 				</div>,
 			date: 'Mar 2017'
@@ -298,9 +296,9 @@ export class SiteContent {
 						As next steps, I aim to:
 					</p>
 					<ul className='same-as-p'>
-						<li>Continue my exploration of Bayesian Deep Learning and Uncertainty for Computer Vision, and there after,</li>
-						<li>Work on the Robotics approach to autonomous vehicle system development by building core functionalities like 
-							Sensor Fusion, Localisation and Control in Term 2 of my nanodegree.</li>
+						<li>Continue my exploration of Bayesian Deep Learning and Uncertainty for Computer Vision</li>
+						<li>Complete the Deep Learning course on Fast.ai, and there after,</li>
+						<li>Develop my knowledge and experience in Reinforcement Learning techniques for autonomous systems</li>
 					</ul>
 					<p>
 						<strong>More importantly</strong>, I'm now looking

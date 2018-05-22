@@ -26,7 +26,7 @@ export class Header extends React.Component<IHeaderProps, {}> {
 							</h1>
 							<h3>
 								I would like to help <span className='highlight'>Wayve.ai</span> create the next 'Wayve'
-								in autonomous vehicles as a <span className='highlight'>Computer Vision Researcher</span>
+								in autonomous vehicles as a <span className='highlight'>Software Engineer</span>
 								<span className='blink'>|</span>
 							</h3>
 						</Col>

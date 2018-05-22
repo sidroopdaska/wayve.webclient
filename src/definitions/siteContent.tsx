@@ -25,7 +25,9 @@ export class SiteContent {
 			content:
 				<p>
 					I believe in the <span className='lead font-weight-bold'>vision</span> and <span className='lead font-weight-bold'>leadership</span> capabilities
-					 of <span className='lead font-weight-bold'>Alex Kendall</span>
+					 of <span className='lead font-weight-bold'>Alex Kendall</span>, who through his extensive research at Cambridge has developed
+					 state of the art techinques for Perception in Autonomous Systems. Thus, giving him a firm grasp of this domain. Moreover, I believe he is capable of building a team
+					that can execute successfully on a global level, and I would like to be a part of that ensemble and contribute to its goal.
 				</p>
 		},
 		{
@@ -35,7 +37,7 @@ export class SiteContent {
 				<p>
 					Well, <span className='lead font-weight-bold'>I'm selfish!</span> I have worked with different technologies
 					over the past two years ranging from Embedded Systems to Full stack Web Development. But working for Wayve.ai's
-					Research team is a different kind of beast. Creating truly autonomous vehicles that have the
+					Engineering team is a different kind of beast. Creating truly autonomous vehicles that have the
 					potential to bring about a paradigm shift in how we commute is both exciting and scary. Mostly exciting though.
 					By working for Wayve.ai, I’ll directly improve my life along with the lives of millions of others. Everybody wins!
 				</p>
@@ -220,7 +222,7 @@ export class SiteContent {
 						Having developed a skill set in Deep Learning and practiced it's application in Computer Vision, I decided to explore
 						the other end of the spectrum by focusing on <strong>'traditional'</strong> Computer Vision techniques.
 						This endeavour resulted in me learning topics such as - camera
-						calibration, distortion correction, image transforms, gradients, edge detection, HOG feauture descriptors, SVM's, etc.
+						calibration, distortion correction, image transforms, edge detection, HOG feauture descriptors, Stereo Geometry, Depth estimation, etc.
 					</p>
 					<p>To translate these learning into real world applications, I implemented the following:</p>
 					<ul>
@@ -243,13 +245,12 @@ export class SiteContent {
 					<p>
 						Following the completion of Term 1 in the Nanodegree, I next decided to revisit C++ due to its hyper-performance nature
 						and it's widespread use in the automotive industry.
-						I spent the next 6 weeks building my knowledge in Modern C++ (C++11 &amp; C++14) and put this to test by:
+						I spent the next 6 weeks building my knowledge in Modern C++ (C++11 &amp; C++14) and put this to test by implementing:
 					</p>
 					<ul className='same-as-p'>
-						<li>Implementing
-						a <a
-								href=''
-								target='_blank'>Path Planning algorithm
+						<li>A <a
+								href='https://github.com/sidroopdaska/PathPlanning'
+								target='_blank'>Path finding algorithm
 							</a>, and,
 						</li>
 						<li>An Extended Kalman Filter that fused together LIDAR &amp; RADAR measurements to track a bicycle's position
@@ -262,12 +263,12 @@ export class SiteContent {
 		{
 			heading: 'Researching Uncertainity in Deep Learning Classifiers',
 			imageAlt: null,
-			imageSrc: require('../assets/timeline-code-img.svg'),
+			imageSrc: require('../assets/timeline-book-img.svg'),
 			content:
 				<div>
 					<p>
 						While presenting my earlier work on the Self-Driving RC Car to a group of University students, I realised
-						the need to model uncertainty in Classifiers for Vision based tasks. This would provide greater insight into whether
+						the need to model uncertainty in Classifiers for Vision based tasks. I believed this would provide greater insight into whether
 						the model was under-confident or falsely over-confident, thus allowing us to make more informed decisions. Researching
 						this topic further opened a whole new world of <strong>Bayesian Deep Learning</strong> for me.
 					</p>
@@ -276,7 +277,7 @@ export class SiteContent {
 						and <a href='https://alexgkendall.com/computer_vision/bayesian_deep_learning_for_safe_ai/' target='_blank'>blog </a> 
 						by <strong>Alex Kendall</strong> on the very same topic.
 						Excited by the results and the wealth of information made availble, I decided to embark on a journey to try and
-						replicate the performance achieved for pixel-wise semantic segmentation.
+						replicate the performance achieved by him for pixel-wise semantic segmentation.
 
 						Some pre-requisites that I have been involved with over the past few weeks include:
 					</p>
@@ -298,7 +299,8 @@ export class SiteContent {
 					</p>
 					<ul className='same-as-p'>
 						<li>Continue my exploration of Bayesian Deep Learning and Uncertainty for Computer Vision, and there after,</li>
-						<li>Work on the Robotics approach to autonomous vehicle system development by building core functionalities like Sensor Fusion, Localisation and Control.</li>
+						<li>Work on the Robotics approach to autonomous vehicle system development by building core functionalities like 
+							Sensor Fusion, Localisation and Control in Term 2 of my nanodegree.</li>
 					</ul>
 					<p>
 						<strong>More importantly</strong>, I'm now looking

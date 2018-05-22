@@ -7,7 +7,7 @@ export class Urls {
 	public static Twitter = 'http://twitter.com/sidroopdaska';
 	public static LinkedIn = 'http://linkedin.com/in/sidroopdaska';
 	public static SDCGithub = 'https://github.com/sidroopdaska/SelfDrivingCar';
-	public static WhyWayveGithubRepo = 'https://github.com/sidroopdaska/rsfe.webclient';
+	public static WhyWayveGithubRepo = 'https://github.com/sidroopdaska/wayve.webclient';
 	public static SDCNDGithubRepo = 'https://github.com/sidroopdaska/SelfDrivingCar';
 	public static SDRCGithubRepo = 'https://github.com/sidroopdaska/SelfDrivingRCCar';
 	public static Mailto = 'mailto:hey@siddharthsharma.io';

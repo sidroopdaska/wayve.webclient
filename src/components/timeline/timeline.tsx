@@ -6,12 +6,18 @@ export interface ITimelineProps {
 	data: Array<ITimelineBlock>;
 }
 
+export interface ILink {
+	href: string;
+	name: string;
+}
+
 export interface ITimelineBlock {
 	heading: string;
 	imageSrc: any;
 	imageAlt: string;
 	content: JSX.Element;
 	date: string;
+	link?: ILink;
 }
 
 export class Timeline extends React.Component<ITimelineProps, {}> {
@@ -46,8 +52,18 @@ export class Timeline extends React.Component<ITimelineProps, {}> {
 					<div className='content'>
 						<h3>{d.heading}</h3>
 						{d.content}
+						{d.link &&
+							<a
+								href={d.link.href}
+								className='read-more'
+								target='_blank'
+							>
+								{d.link.name}
+							</a>
+						}
 						<span className='date'>{d.date}</span>
 					</div>
+
 				</div>
 			);
 		});

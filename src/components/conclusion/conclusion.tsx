@@ -14,7 +14,7 @@ export class Conclusion extends React.Component<IConclusionProps, {}> {
 		return (
 			<div>
 				<Row className='justify-content-center'>
-					<h4>I believe we make a <span className='font-weight-bold conclusion'>perfect match</span> Wayve!</h4>
+					<h4>I believe we make a <span className='font-weight-bold conclusion'>perfect match</span> Wayve.ai!</h4>
 				</Row>
 				<Row className='justify-content-center'>
 					<p>

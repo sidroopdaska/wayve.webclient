@@ -3,10 +3,10 @@ import { Row, Col } from 'reactstrap';
 import './whyWayve.scss';
 
 export interface IWhyWayveProps {
-	data: Array<IWRColData>;
+	data: Array<IWWColData>;
 }
 
-export interface IWRColData {
+export interface IWWColData {
 	imageSrc: any;
 	imageAlt: string;
 	content: JSX.Element;
@@ -36,7 +36,7 @@ export class WhyWayve extends React.Component<IWhyWayveProps, {}> {
 			<div className='why-Wayve'>
 				<div>
 					<h2>
-						#why <span className='text-muted'>Wayve</span>
+						#why <span className='text-muted'>Wayve.ai</span>
 					</h2>
 				</div>
 				<Row>

@@ -57,7 +57,7 @@
 	.content h2 {
 		color: #303e49;
 	}
-	.content p, .content ul>li>a, .content .read-more, .content .date {
+	.content p, .content ul>li>a, .content .read-more, .content .date, .content .same-as-p {
 		font-size: 0.9rem;
 	}
 	.content .content .date {
@@ -158,7 +158,7 @@
 			left: 122%;
 			top: 6px;
 			font-size: 16px;
-			font-size: 1rrem;
+			font-size: 1rem;
 		}
 		.block:nth-child(even) .content {
 			float: right;
@@ -209,6 +209,11 @@
 	.timeline::before {
 		left: 50%;
 		margin-left: -2px;
+	}
+	
+	.content p {
+		margin: 1em 0;
+		line-height: 1.6;
 	}
 }
 
@@ -278,15 +283,15 @@
 @media only screen and (max-width: 768px) {
 	.content h2 {
 		font-size: 20px;
-		font-size: 1.25rrem;
+		font-size: 1.25rem;
 	}
 	.content p {
 		font-size: 16px;
-		font-size: 1rrem;
+		font-size: 1rem;
 	}
 	.content .read-more, .content .date {
 		font-size: 14px;
-		font-size: 0.875rrem;
+		font-size: 0.875rem;
 	}
 }
 

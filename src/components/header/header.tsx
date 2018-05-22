@@ -22,11 +22,11 @@ export class Header extends React.Component<IHeaderProps, {}> {
 						</Col>
 						<Col lg='6' md={{ order: 1 }} className='desc1'>
 							<h1 className='display-4'>
-								Hello! My name is <a href={Urls.PersonalWebsite} target='_blank'>Siddharth Sharma</a>
+								Hello! My name is <strong><a href={Urls.PersonalWebsite} target='_blank'>Siddharth Sharma</a></strong>
 							</h1>
 							<h3>
-								I would like to help <span className='highlight'>Wayve.ai</span> create the next 'Wayve'
-								in autonomous vehicles as a <span className='highlight'>Computer Vision Researcher</span>
+								I would like to help <strong><span className='highlight'>Wayve.ai</span></strong> create the next 'Wayve'
+								in autonomous vehicles as a <strong><span className='highlight'>Deep Learning &amp; Computer Vision</span></strong> Research Engineer
 								<span className='blink'>|</span>
 							</h3>
 						</Col>

@@ -1,3 +1,5 @@
+@import '../../layout/variables';
+
 .timeline {
 	/** This class is used to give a max-width to the element it is applied to,
 	and center it horizontally when it reaches that max-width */
@@ -32,7 +34,7 @@
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;
-		box-shadow: 0 0 0 4px var(--blue), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+		box-shadow: 0 0 0 4px $blue-color, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 		background-color: var(--white);
 		z-index: 1;
 	}
@@ -68,15 +70,15 @@
 		float: right;
 		padding: .6rem 1rem;
 		background: #ffffff;
-		color: var(--pink);
+		color: $pink-color;
 		border-radius: 0.25rem;
-		border: 2px solid var(--pink);
+		border: 2px solid $pink-color;
 	}
 	.content .read-more:hover {
 		text-decoration: none;
 		text-decoration-line: none;
-		background: var(--pink);
-		color: var(--white);
+		background: $pink-color;
+		color: white;
 	}
 	.content .date {
 		float: left;
